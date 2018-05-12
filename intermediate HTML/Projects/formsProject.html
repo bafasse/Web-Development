@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Register</title>
+  </head>
+  <body>
+    <h1>Register</h1>
+    <form>
+      <div>
+        <label for="name">First Name</label>
+        <input id="name" type="text" placeholder="firstName" required>
+
+        <label for="name">Last Name</label>
+        <input id="name" type="text" placeholder="lastName" required>
+      </div>
+
+      <div>
+        <label for="male">Male</label>
+        <input name="gender" id="male" type="radio" value="MALE">
+
+        <label for="female">Female</label>
+        <input name="gender" id="female" type="radio" value="FEMALE">
+
+        <label for="damaged">Damaged</label>
+        <input name="gender" id="damaged" type="radio" value="DAMAGED">
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="email" required>
+
+        <label for="password">Password</label>
+        <input id="password" type="password" placeholder="password" required>
+      </div>
+
+      <div>
+        <label>Birthday:
+          <select name="month">
+            <option>Month</option>
+            <option>JAN</option>
+            <option>FEB</option>
+          </select>
+
+          <select month="day">
+            <option>Day</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+
+          <select name="year">
+            <option>Year</option>
+            <option>1996</option>
+            <option>2000</option>
+          </select>
+        </label>
+      </div>
+
+      <div>
+        <label for="terms">Do you Agree</label>
+        <input id="terms" type="checkbox" required>
+      </div>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
