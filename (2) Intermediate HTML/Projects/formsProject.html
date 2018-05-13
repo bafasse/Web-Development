@@ -6,6 +6,8 @@
   </head>
   <body>
     <h1>Register</h1>
+
+    <!-- First and Last Name -->
     <form>
       <div>
         <label for="name">First Name</label>
@@ -15,6 +17,7 @@
         <input id="name" type="text" placeholder="lastName" required>
       </div>
 
+      <!-- Gender -->
       <div>
         <label for="male">Male</label>
         <input name="gender" id="male" type="radio" value="MALE">
@@ -26,14 +29,20 @@
         <input name="gender" id="damaged" type="radio" value="DAMAGED">
       </div>
 
+      <!-- Email and Password  -->
       <div>
-        <label for="email">Email</label>
-        <input id="email" type="email" placeholder="email" required>
+        <label>
+          Email:
+          <input id="email" type="email" placeholder="email" required>
+        </label>
 
-        <label for="password">Password</label>
-        <input id="password" type="password" placeholder="password" required>
+        <label>
+          Password:
+          <input id="password" type="password" placeholder="password" required>
+        </label>
       </div>
 
+      <!-- Birthday -->
       <div>
         <label>Birthday:
           <select name="month">
@@ -56,6 +65,7 @@
         </label>
       </div>
 
+      <!-- Agree to Terms -->
       <div>
         <label for="terms">Do you Agree</label>
         <input id="terms" type="checkbox" required>
