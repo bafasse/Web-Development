@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Specificity</title>
+    <style type="text/css">
+    body {
+      color: red;
+      background-color: blue;
+    }
+    ul {
+      color: blue;
+    }
+
+    li {
+      color: orange; /* This color will be used */
+    }
+
+    .highlight {
+      color: yellow;
+    }
+
+    #special {
+      color: pink;
+    }
+    </style>
+  </head>
+  <body>
+
+  <p>HELLO!!!</p>
+
+  <ul>
+    <li id="special" class="highlight">John</li> <!-- id takes greater precedence over class -->
+    <li>Paul</li>
+    <li>George</li>
+    <li class="highlight">Ringo</li>
+  </ul>
+
+  </body>
+</html>
