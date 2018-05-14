@@ -1,0 +1,28 @@
+h1 {
+  color: red; /* colors can be represented by name in CSS */
+  /* border-color: purple;
+  border-width: 5px;
+  border-style: solid;  this is how you set borders */ 
+
+  border: 5px solid purple; /* This works too since you have to do all 3 anyways */
+}
+
+li {
+  color: #00FF00; /* colors can also be represented in hexadecimal */
+}
+
+h4 {
+  color: rgb(0,0,255); /* colors can also be represented in rgb format */
+  background: rgb(255, 100, 80);
+}
+
+/* colors can also be represented in rgba (with a being alpha for transparency) */
+/* alpha in rgba ranges from 0.0 - 1.0 */
+
+body {
+  /* background: url(https://upload.wikimedia.org/wikipedia/en/3/3d/MountainAshFloor.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; */
+
+  background: pink;
+}
