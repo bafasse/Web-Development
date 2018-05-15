@@ -1,0 +1,20 @@
+p {
+  /* Content - height and width */
+
+  width: 50%; /* percentage is of the parent */
+  /* height: 50px; */
+  /* Border */
+
+  border: 2px solid blue;
+  /* Padding  */
+
+  padding: 50px;
+  padding-left: 40px;
+  /* Margin */
+
+  /* margin: 100px; */
+  /* margin-top: 50px */
+  /* margin: 20px 40px 20px 40px; */
+  /* margin: 0px auto 0px auto; */
+  margin: 0 auto; /* This is the same as the top */
+}
