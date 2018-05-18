@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap Gris System</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <style type="text/css">
+      .pink {
+        background: pink;
+        border: 1px solid purple;
+      }
+
+      .orange {
+        background: orange;
+        border: 1px dashed red;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <!-- ===============================
+              OBJECTIVES
+    1. Understand the Grid System
+    2. Understand 4 different sizes
+    3. Write Nested Grids
+    =============================== -->
+
+    <div class="container">
+      <!-- <div class="row">
+        <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+        <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+        <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+        <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+        <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+        <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+        <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+        <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+        <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+        <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+        <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+        <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+      </div> -->
+      <div class="row">
+        <div class="col-md-3 col-sm-6 pink"> <!-- col-lg-3 isnt needed because it knows what you want for lg -->
+          <div class="row">
+            <div class="col-lg-6 orange">First Half</div>
+            <div class="col-lg-6 orange">Last Half</div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 pink">Tour Date</div> <!-- col-lg-3 isnt needed because it knows what you want for lg -->
+        <div class="col-md-3 col-sm-6 pink">Tour Date</div> <!-- col-lg-3 isnt needed because it knows what you want for lg -->
+        <div class="col-md-3 col-sm-6 pink">
+          <div class="row">
+            
+          </div>
+        </div> <!-- col-lg-3 isnt needed because it knows what you want for lg -->
+      </div>
+    </div>
+  </body>
+</html>
