@@ -55,6 +55,7 @@ button {
      /* to be browser friendly, add these */
      -webkit-transition: all 0.6s;
      -moz-transition: all 0.6s;
+    outline: none;
 }
 
 button:hover {
