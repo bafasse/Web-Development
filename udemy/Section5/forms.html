@@ -31,7 +31,8 @@
 
         <p>
             <label for="number">Enter a number: </label>
-            <input type="number" placeholder="number" id="number" name="number" min="9001" max="9999"> <!-- Can also use MIN and MAX here -->
+            <input type="number" placeholder="number" id="number" name="number" min="9001" max="9999">
+            <!-- Can also use MIN and MAX here -->
         </p>
 
         <p>
@@ -101,14 +102,40 @@
 
         <p>
             <label for="cheese">Amount of Cheese: </label>
-            <input type="range" id="cheese" min="9001" max="9999" name="cheese_lvl"> <!-- This way its always OVER 9000-->
+            <input type="range" id="cheese" min="9001" max="9999" name="cheese_lvl">
+            <!-- This way its always OVER 9000-->
         </p>
 
         <p>
             <label for="requests">ANy Special Requests?: </label>
-            <textarea name="" id="" cols="20" rows="2" id="requests"></textarea> <!-- default cols is 20-, default rows is 2 -->
+            <textarea name="" id="" cols="20" rows="2" id="requests"></textarea>
+            <!-- default cols is 20-, default rows is 2 -->
         </p>
         <button>Submit</button>
+
+        <h2>Validations Demo</h2>
+        <form action="/dummy">
+            <label for="first">Enter First Name</label>
+            <input type="text" name="first" id="first" required>
+            <!-- Adding required lets the browser not accept an empty text field -->
+
+            <p>
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" required minlength="5" maxlength="20">
+                <!-- Sets min and max length of text box-->
+            </p>
+
+            <p>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </p>
+
+            <p>
+                <label for="url">URL</label>
+                <input type="url" name="url" id="url" required>
+            </p>
+            <button>Submit</button>
+        </form>
     </form>
 </body>
 
